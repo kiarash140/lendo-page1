@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>tamrin site lendo</title>
+    <link rel="stylesheet" href="style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+</head>
+<body>
+<header>
+    <div class="container_hamburger" onclick="hamburgermaker(this)">
+        <div class="bar1"></div>
+        <div class="bar2"></div>
+        <div class="bar3"></div>
+        <div class="fehrest" id="fehrest">
+            <a class="f" href="index.html">چطور وام بگیریم؟</a>
+            <a class="f" href="index.html">اعتبار سنجی</a>
+            <a class="f" href="index.html">فروشگاه ها</a>
+            <a class="f" href="index.html">ثبت فروشگاه ها</a>
+            <a class="f" href="index.html">راهنما</a>
+            <a class="f" href="index.html">بلاگ</a>
+        </div>
+    </div>
+    <a class="logo" href="index.html"><img src="images/svgexport-2.svg" alt=""></a>
+    <a class="pages" href="index.html">چطور وام بگیریم؟</a>
+    <a class="pages" href="index.html">اعتبار سنجی</a>
+    <a class="pages" href="index.html">فروشگاه ها</a>
+    <a class="pages" href="index.html">ثبت فروشگاه ها</a>
+    <a class="pages" href="index.html">راهنما</a>
+    <a class="pages" href="index.html">بلاگ</a>
+    <button id="sabt_nam" >ثبت نام</button>
+</header>
+<main>
+    <div class="banner">
+        <div class="banner_mohtava">
+        <h1 style="font-size: 8vh">بدون نیاز به چک و ضامن</h1>
+        <h3 style="font-size: 4vh">از لندو وام بگیر و خرید کن!</h3>
+        <button class="banner_button">درخواست وام</button>
+        </div>
+        <div class="banner_img">
+        <img src="images/homePageBannerCard.png" alt="loading" class="banner_img">
+        </div>
+    </div>
+    <div class="icons">
+        <div class="icon"> <img src="images/MapIcon.svg" alt="" > <p>پوشش کل کشور</p> </div>
+        <div class="icon"> <img src="images/onlineProccessIcon.svg" alt=""> <p>فرایند کاملا آنلاین</p> </div>
+        <div class="icon">  <img src="images/shoppingCardIcon.svg" alt=""><p>ارائه وام در کارت خرید</p> </div>
+        <div class="icon"> <img src="images/warrantyIcon.svg" alt=""> <p>بدون چک و ضامن</p> </div>
+    </div>
+    <div class="slider">
+        <div class="images" id="images_slider">
+            <img src="images/1.png" alt="" class="slider_img">
+        </div>
+        <div class="slider_gogoli">
+            <div class="vay"><button class="arrow" id="arrow_left"><img src="images/svgexport-7.svg"></button></div>
+            <div class="gerdali" id="g7"></div>
+            <div class="gerdali" id="g6"></div>
+            <div class="gerdali" id="g5"></div>
+            <div class="gerdali" id="g4"></div>
+            <div class="gerdali" id="g3"></div>
+            <div class="gerdali" id="g2"></div>
+            <div class="gerdali" id="g1"></div>
+            <div class="vay"><button class="arrow" id="arrow_right"><img src="images/svgexport-6.svg"></button></div>
+        </div>
+        <div class="slider_mohtava">
+            <div class="slider_header" style="font-weight: bold;font-size: 6vh"> <img src="images/svgexport-22.svg" alt=""> مراحل دریافت وام از لندو </div>
+            <div class="buttoni">
+                      <button class="button_buttoni" id="b1" onclick="excute(+id.slice(1))" > مرحله۱</button>
+                      <button class="button_buttoni" id="b2" onclick="excute(+id.slice(1))"> مرحله۲</button>
+                      <button class="button_buttoni" id="b3" onclick="excute(+id.slice(1))"> مرحله۳</button>
+                      <button class="button_buttoni" id="b4" onclick="excute(+id.slice(1))"> مرحله۴</button>
+                      <button class="button_buttoni" id="b5" onclick="excute(+id.slice(1))"> مرحله۵</button>
+                      <button class="button_buttoni" id="b6" onclick="excute(+id.slice(1))"> مرحله۶</button>
+                      <button class="button_buttoni" id="b7" onclick="excute(+id.slice(1))"> مرحله۷</button>
+
+            </div>
+            <div class="matni">
+                <h1 style="margin-bottom: 4vh" id="matni_1">اعتبارسنجی</h1>
+                <p style="line-height: 170%" id="matni_2">ابتدا لازم است با انجام اعتبارسنجی بانکی، رتبه اعتباری خود را بررسی کنید. این رتبه به شما نشان می‌دهد که شرایط دریافت وام لندو را دارید و با توجه به آن، مشخص می‌شود که کدام وام‌ها برای شما قابل دریافت هستند</p>
+                <h3><a href="#fehrest" style="text-decoration: none;margin-top: 2vh" id="matni_3"> اعتبارسنجی</a></h3>
+            </div>
+
+        </div>
+
+
+
+    </div>
+     <div class="banner_2_2"><a href=""><img src="images/homeDocumentBanner.svg" alt="" class="banner_2"></a></div>
+    <div class="background_gray">
+    <div class="js_component">
+          <div class="zibayi">
+              <div class="zibayi_left"><div class="animation"></div></div>
+              <div class="zibayi_center"></div>
+              <div class="zibayi_right"> <p style="margin-right: 2vh">میلیون تومانی</p> <img src="images/50%20icon.png" alt="" class="lil_pic"> <p style="margin-left: 2vh">وام</p>  </div>
+           </div>
+        <div class="namayeshgar">
+            <div class="namayeshgar_top">  <a href="#sabt_nam" class="fix_namayeshgar_top_a">راهنمای دریافت وام</a> <div class="fix_namayeshgar_top_h"> <h1 style="margin-bottom: 3vh">نمایشگر اقساط</h1> <p>قبل از درخواست وام , از جزئیات وام و اقساط ماهانه آن مطلع شوید</p></div></div>
+            <div class="namayeshgar_center">
+                <div class="namayeshgar_center_topside"><button class="namayeshgar_center_topside_left_button"><img src="images/svgexport-12.svg"></button><h2 class="namayeshgar_center_topside_txt"><p style="margin-right: 1vh"> تومان</p>50,000,000</h2><button class="namayeshgar_center_topside_right_button"><img src="images/svgexport-11.svg"></button></div>
+                <div class="namayeshgar_center_bottomside">
+                    <div class="bars">
+                        <button class="a1"></button>
+                        <button class="a2"></button>
+                        <button class="a3"></button>
+                        <button class="a4"></button>
+                        <button class="a5"></button>
+                        <button class="a6"></button>
+                        <button class="a7"></button>
+                    <div class="bar_poshti"></div>
+                    <div class="bar_goloi"></div>
+                    </div>
+                    <div class="bars_txt"> <p></p> <p></p> </div>
+                </div>
+            </div>
+            <div class="namayeshgar_bottom"> </div>
+        </div>
+    </div>
+    </div>
+<div class="gym_points">
+    <div class="gym_point_mohtava">
+    <h1 class="emtiazat_txt" style="color: darkblue">باشگاه لندولند، امتیازت رو به وام تبدیل کن!</h1>
+    <p class="emtiazat_txt2"> با عضویت در باشگاه مشتریان لندو (لندولند)، می‌تونی با انجام کارهای ساده مثل خرید، ثبت‌نام و شرکت در مأموریت‌های روزانه، امتیاز جمع کنی. این امتیازها قابل استفاده برای دریافت وام، شرکت در قرعه‌کشی‌ها، یا دریافت جوایز و تخفیف‌های متنوع هستن</p>
+    <a href="#sabt_nam" class="vorod_be_lendoland">ورود به لندولند</a>
+    </div>
+    <img src="images/homePageLendolandBanner-2.png" alt="" style="margin-left: 14vh;margin-top: 10vh;">
+</div>
+
+    <div class="mother_banner">
+<!--    <div class="fixers"></div>-->
+    <div class="banner_3"><a><img src="images/home-store-new-banner.jpeg" alt="" class="banner_store" ></a></div>
+<!--    <div class="fixers"></div>-->
+    </div>
+    <div class="soalat">
+        <h1 style="font-weight: bold">سوالات پر تکرار</h1>
+        <h2 style="margin-top: 5vh; margin-bottom:5vh">پاسخ به سوالات شما درباره نحوه دریافت وام خرید کالا</h2>
+        <div class="q0"><button class="slider_button" onclick="feshar(this)"><img src="images/svgexport-14.svg" alt=""></button> <h1 class="soalat_firsttxt">چگونه از لندو وام بگیرم؟ </h1> <h2 class="soalat_secondtxt"> برای دریافت وام از لندو نیاز است شما درخواست خود را ثبت کرده و مدارک لازم را بارگذاری کنید. بعد از صدور «وام کارت» و دریافت آن، می‌توانید با وام خود انواع کالاها را از فروشگاه‌های مختلف بخرید و اقساط آن را به لندو بپردازید.</h2></div>
+        <div class="q1"> <button class="slider_button" onclick="feshar(this)"><img src="images/svgexport-14.svg" alt=""></button> <h1 class="soalat_firsttxt"> برای دریافت وام لندو چه مدارکی باید داشته باشم؟</h1> <h2 class="soalat_secondtxt"> برای دریافت وام لندو، سه مدرک زیر مورد نیاز است:
+
+            تصویر پشت و روی کارت ملی جدید یا رسید تعویض کارت ملی قدیمی
+            نمره اعتباری قابل قبول
+            گواهی ثنا   </h2></div>
+        <div class="q2"> <button class="slider_button" onclick="feshar(this)"><img src="images/svgexport-14.svg" alt=""></button> <h1 class="soalat_firsttxt">«وام کارت» چیست و چطور باید از آن استفاده کنم؟</h1> <h2 class="soalat_secondtxt"> «وام کارت» یک کارت خرید عضو شتاب است که در دو نوع «وام کارت آبی» و «وام کارت سفید» به کاربران لندو عرضه می‌شود و شما می‌توانید بسته به نوع وام کارت خود، از آن برای خرید کالا از فروشگاه‌های مختلف استفاده کنید. بعد از اینکه درخواست اعتبارسنجی شما تایید شد، «وام کارت» از طریق پست به آدرستان ارسال می‌شود. البته توجه داشته باشید که تا مرحله امضای قراردادها، باید حتما از طریق حساب کاربری خود، کارتتان را فعال کنید. درخواستتان که نهایی شد، مبلغ وام در «وام کارتتان» شارژ می‌شود و می‌توانید از موجودی کارت که همان مبلغ وام درخواستی‌تان است، برای خرید کالاهای مورد نظر خود استفاده کنید   </h2></div>
+        <div class="q3"><button class="slider_button" onclick="feshar(this)"><img src="images/svgexport-14.svg" alt=""></button>  <h1 class="soalat_firsttxt"> تفاوت وام کارت آبی و سفید در چیست؟ </h1> <h2 class="soalat_secondtxt"> شما با دریافت وام کارت آبی امکان خرید کالا از فروشگاه‌های طرف قرارداد لندو را خواهید داشت؛ درصورتی که با وام کارت سفید می‌توانید از تمامی فروشگاه های آنلاین و دستگاه های کارتخوان سراسر کشور خرید خود را انجام دهید و محدود به فروشگاه‌های طرف قرارداد نخواهید بود   </h2></div>
+        <div class="q4"><button class="slider_button" onclick="feshar(this)" ><img src="images/svgexport-14.svg" alt=""></button>  <h1 class="soalat_firsttxt">سود وام لندو چقدر است؟</h1> <h2 class="soalat_secondtxt"> از آن‌جایی که وام دریافتی شما توسط بانک آینده تأمین می‌شود، سود اقساط شما نرخ مصوب بانک مرکزی، یعنی 23 درصد است   </h2></div>
+        <div class="q5"><button class="slider_button" onclick="feshar(this)"><img src="images/svgexport-14.svg" alt=""></button>  <h1 class="soalat_firsttxt">چطور باید سفته الکترونیکی را خریداری کرد؟</h1> <h2 class="soalat_secondtxt"> برای دریافت وام لندو، باید سفته الکترونیکی مورد نیاز را از طریق خود سایت لندو خریداری کنید. برای مشاهده آموزش خرید سفته الکترونیکی، بهاین صفحه مراجعه کنید   </h2></div>
+        <div class="q6"><button class="slider_button" onclick="feshar(this)"><img src="images/svgexport-14.svg" alt=""></button>  <h1 class="soalat_firsttxt">پرداخت اقساط در لندو چگونه است؟</h1> <h2 class="soalat_secondtxt"> روش پرداخت اقساط به صورت ۱۲ ماهه است و شما می‌توانید یکی از این روش‌ها را انتخاب کنید. همچنین باید اقساط خود را به صورت آنلاین از طریق سایت لندو و حساب کاربری‌تان بپردازید. اگر در پرداخت اقساط خود تاخیر داشته باشید، از شما جریمه دیرکرد دریافت می‌شود و اگر اقساط خود را زودتر از موعد پرداخت کنید، نمره اعتبارتان در لندو افزایش پیدا می‌کند. ضمنا در صورتی که قسط خود را پرداخت کردید اما بعد از ۷۲ ساعت کاری پرداخت شما ثبت نشد و مبلغ پرداخت‌شده هم به حسابتان برنگشت، لطفا با تیم پشتیبانی ما تماس بگیرید تا پرداخت قسط شما در سایت لندو ثبت شود   </h2></div>
+        <div class="q7"><button class="slider_button" onclick="feshar(this)"><img src="images/svgexport-14.svg" alt=""></button>  <h1 class="soalat_firsttxt">لندو اقساط من را چطور با بانک تسویه می‌کند؟</h1> <h2 class="soalat_secondtxt"> لندو هیچ‌گونه دسترسی به اقساط پرداختی شما ندارد. زمانی که قسط خود را پرداخت می‌کنید، مبلغ پرداختی مستقیما وارد حساب بانک آینده می‌شود  </h2></div>
+    </div>
+</main>
+<footer>
+<div class="download">
+   <a href="#sabt_nam"><img src="images/coffe-bazzar.svg" alt="" class="download_icons"></a>
+    <a href="#sabt_nam"><img src="images/myket.svg" alt="" class="download_icons"></a>
+    <a href="#sabt_nam"><img src="images/pwaIcon.svg" alt="" class="download_icons"></a>
+    <div class="download_txt">
+    <h2 style="margin-right: 4vh; margin-left: auto" >  دانلود اپلیکیشن لِندو</h2>
+    <img src="images/svgexport-15.svg" alt="" style="margin-right: 8vh">
+    </div>
+</div>
+    <div class="footer_bootom">
+        <div class="footer_right">
+            <ul class="footer_list">
+                <li class="footer_li" style=font-weight:bold ><a href="#sabt_nam" class="ft"> راهنمای مشتریان</a></li>
+                <li class="footer_li"><a href="#sabt_nam" class="ft"> آموزش تصویری دریافت وام</a></li>
+                <li class="footer_li"><a href="#sabt_nam" class="ft">راهنما</a></li>
+                <li class="footer_li"><a href="#sabt_nam" class="ft">  مدارک لازم </a></li>
+                <li class="footer_li"><a href="#sabt_nam" class="ft">  راهنمای امضای الکترونیکی </a></li>
+                <li class="footer_li"><a href="#sabt_nam" class="ft">محاسبه اقساط </a></li>
+                <li class="footer_li"><a href="#sabt_nam" class="ft"> راهنمای سفته الکترونیکی </a></li>
+            </ul>
+        </div>
+        <div class="footer_center">
+            <ul class="footer_list">
+                <li class="footer_li" style=font-weight:bold ><a href="#sabt_nam" class="ft">  لندو </a> </li>
+                <li class="footer_li"><a href="#sabt_nam" class="ft">  درباره ما</a></li>
+                <li class="footer_li"><a href="#sabt_nam" class="ft">تماس با ما </a></li>
+                <li class="footer_li"><a href="#sabt_nam" class="ft"> داستان لندو </a></li>
+                <li class="footer_li"><a href="#sabt_nam" class="ft">از ایران رنتر تا لندو </a></li>
+                <li class="footer_li"><a href="#sabt_nam" class="ft">فرهنگ ما </a></li>
+                <li class="footer_li"><a href="#sabt_nam" class="ft"> مزایای شغلی ما </a></li>
+                <li class="footer_li"><a href="#sabt_nam" class="ft">  بلاگ </a></li>
+            </ul>
+        </div>
+        <div class="footer_left">
+            <a href="#sabt_nam"> <img src="images/ayandeh_bank_provider.svg" alt="" class="footer_pic_bank"></a>
+        </div>
+    </div>
+</footer>
+<div class="mobile">
+    <div class="mobile_icons"><button class="mobile_buttons"> 1</button></div>
+    <div class="mobile_icons"><button class="mobile_buttons">2 </button></div>
+    <div class="mobile_icons"><button class="mobile_buttons"> 3</button></div>
+    <div class="mobile_icons"><button class="mobile_buttons"> 4</button></div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
