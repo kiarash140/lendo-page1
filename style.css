@@ -78,6 +78,9 @@ header{
     height: 5vh;
     transition: background-color 0.5s;
     font-weight: bold;
+    background-color: darkblue; !important;
+    /*border-style: solid; !important;*/
+    /*border: 10px; !important;*/
 }
 #sabt_nam:hover{
     background-color: darkblue;
@@ -95,17 +98,16 @@ header{
 }
 .banner{
     background-color: #23417D;
-    height: 70vh;
-    width:100%;
-    direction: rtl;
+    height: 70vh; !important;
+    width:100%; !important;
+    direction: rtl; !important;
     display: flex;
     color: white;
 }
 .banner_img{
     width: 45vh;
     height: 35vh;
-    margin-top: 14vh;
-    margin-right: 10vh;
+
 }
 .banner_mohtava{
     height: 100%;
@@ -122,10 +124,11 @@ header{
     border-radius: 2vh;
     width: 30vh;
     height: 7vh;
-    margin-top: 6vh;
-    margin-left: 20vh;
+    /*margin-top: 6vh;*/
+    /*margin-left: 20vh;*/
     transition: background-color 0.5s;
 }
+
 .banner_button:hover{
     background-color: green;
 }
@@ -361,15 +364,13 @@ footer{
     display: flex;
 }
 .slider{
-    margin-top:19vh;
     background-color: white;
     width: 75%;
-    height: 60vh;
-    margin-left: auto;
-    margin-right: auto;
+    height: 70vh;
     border-radius: 3vh;
     position: relative;
     display: flex;
+    margin: 19vh auto 10vh;
 }
 .images{
     height: 100%;
@@ -556,6 +557,8 @@ background-color: white;
     width: 100%;
     border-bottom-left-radius: 2.5vh;
     border-bottom-right-radius: 2.5vh;
+    display: flex;
+    flex-direction: row-reverse;
 }
 .fix_namayeshgar_top_a{
     margin-left: 3vh;
@@ -618,94 +621,138 @@ background-color: white;
     align-items: center;
     justify-content: center;
     position: relative;
-    width: 100%;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
 }
 .bar_goloi{
     position: absolute;
-    width: 90%;
+    width: 100%;
     z-index: 52;
     background-color: green;
     height: 1vh;
     border-radius: 1vh;
-    display: none;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
+    /*left: 8vh;*/
+    left: 0;
+    /*display: none;*/
+    transition: width 0.1s;
 }
 .bar_poshti{
     position: absolute;
-    width: 90%;
+    width: 100%;
     z-index: 50;
     background-color: lawngreen;
     height: 1vh;
     border-radius: 1vh;
-    display: none;
+    margin-left: auto;
+    margin-right: auto;
+    /*left: 8vh;*/
+    /*display: none;*/
 }
 .a1,.a2,.a3,.a4,.a5,.a6,.a7{
     width: 1vh;
     height: 1vh;
-    background-color: lightgreen;
+    background-color: darkgreen;
     border-style: none;
     border-radius: 100%;
-    margin-left: auto;
-    margin-right: auto;
+    /*margin-left: auto;*/
+    /*margin-right: auto;*/
     cursor: pointer;
-    z-index: 51;
+    z-index: 53;
+    margin-left: auto;
 }
-@media screen and (max-width:1280px){
-    .container_hamburger{
-        display: inline-block;
-        cursor: pointer;
-        margin-right: 20px;
-        position: relative;
-    }
-    .pages{
-        display: none;
-    }
-    .icons{
-        flex-direction: column;
-        height: 100vh;
-    }
-    .download{
-        flex-direction: column-reverse;
-        height: 40vh;
-    }
-    .gym_points{
-        flex-direction: column;
-    }
-    .footer_bootom{
-        flex-direction: column;
-        justify-content: center;
-        align-content: center;
-    }
-    .footer_left{
-        width: 100%;
-    }
-    .footer_right{
-        width: 100%;
-    }
-    .footer_center{
-        width: 100%;
-    }
-    .footer_list{
-        margin-right: 20vh;
-    }
-    .download_txt{
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 5vh;
-        margin-bottom: 4vh;
-
-    }
-    .footer_pic_bank{
-        margin-right: 20vh;
-    }
-    .banner{
-        /*overflow: scroll;*/
-    }
-    .banner_button{
-        margin-right: 10vh;
-    }
-    .mobile{
-        display: flex;
-    }
-
-
+.a1{
+    margin-left: 0; !important;
 }
+.holy_big{
+    height: 3vh;
+    width: 3vh;
+    border: 7px solid green;
+    z-index: 59;
+    background-color: white;
+}
+.holy_big:hover{
+    box-shadow: lightgreen 0px 0px 0px 6px;
+}
+.bars_txt{
+    display: flex;
+    flex-direction: row;
+}
+.p_l{
+    margin-right: auto;
+    direction: rtl;
+    margin-left:3vh;
+    margin-top: 1vh;
+}
+.p_r{
+    margin-left: auto;
+    direction: rtl;
+    margin-right:3vh;
+    margin-top: 1vh;
+}
+.namayeshgar_bottom_adad{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    height: 100%;
+    direction: rtl;
+}
+.namayeshgar_bottom_adad_top{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-top: 4vh;
+    margin-right: 5vh;
+    font-weight: bold;
+}
+.namayeshgar_bottom_adad_middle{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-top: 2vh;
+    margin-right: 5vh;
+    font-weight: bold;
+}
+.namayeshgar_bottom_adad_bottom{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: flex-end;
+    margin-top: 2vh;
+    margin-right: 5vh;
+    font-weight: bold;
+}
+.namayeshgar_bottom_adad_top_left{
+    margin-right: auto;
+    margin-left: 15vh;
+}
+.namayeshgar_bottom_adad_middle_left{
+    margin-right: auto;
+    margin-left: 15vh;
+}
+.namayeshgar_bottom_adad_bottom_left{
+    margin-right: auto;
+    margin-left: 15vh;
+}
+.namayeshgar_bottom_button{
+    width: 40%;
+    height: 100%;
+    direction: rtl;
+}
+.namayeshgar_bottom_button_style{
+    width: 20vh;
+    height: 6vh;
+    background-color: lightgreen;
+    margin-top: 11vh;
+    margin-right: 14vh;
+    border-radius: 3vh;
+    border-style: none;
+      font-weight: bold;
+    color: white;
+    cursor: pointer;
+}
+.jeez{
+    background-color: darkblue;
+}
+
