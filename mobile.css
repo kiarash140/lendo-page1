@@ -1,18 +1,237 @@
 
 /*...-1400  1400-1200  1200-992  992-768  768-...*/
+
+@media screen and (min-width:768px){
+    .banner_img{
+        width:50%; !important;
+    }
+
+
+
+
+
+
+
+}
+@media screen and (min-width:992px ) and (max-width:1200px){
+    .js_component{
+        width: 98%;
+        height: 100%;
+    }
+    .namayeshgar_bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+    .namayeshgar_bottom_button_style{
+        margin-top: 4vh;
+        margin-right: 0;
+    }
+    .namayeshgar_bottom_button{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .namayeshgar_bottom_adad{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .namayeshgar_bottom_adad_top_left{
+        margin-left: 0;
+    }
+    .namayeshgar_bottom_adad_middle_left{
+        margin-left: 0;
+    }
+    .namayeshgar_bottom_adad_bottom_left{
+        margin-left: 0;
+    }
+    .namayeshgar_bottom_adad_top{
+        margin-right: 0;
+    }
+    .namayeshgar_bottom_adad_middle{
+        margin-right: 0;
+    }
+    .namayeshgar_bottom_adad_bottom{
+        margin-right: 0;
+    }
+    .background_gray{
+        height: 100vh;
+    }
+
+}
+@media screen and (min-width:768px ) and (max-width:992px){
+    .pages{
+        display: none;
+    }
+    .js_component{
+        width: 98%;
+        height: 100%;
+    }
+    .namayeshgar_bottom{
+        display: flex;
+        flex-direction: column;
+        align-items: end;
+    }
+    .namayeshgar_bottom_button_style{
+        margin-top: 4vh;
+        margin-right: 0;
+    }
+    .namayeshgar_bottom_button{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .namayeshgar_bottom_adad{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .namayeshgar_bottom_adad_top_left{
+        margin-left: 0;
+    }
+    .namayeshgar_bottom_adad_middle_left{
+        margin-left: 0;
+    }
+    .namayeshgar_bottom_adad_bottom_left{
+        margin-left: 0;
+    }
+    .namayeshgar_bottom_adad_top{
+        margin-right: 0;
+    }
+    .namayeshgar_bottom_adad_middle{
+        margin-right: 0;
+    }
+    .namayeshgar_bottom_adad_bottom{
+        margin-right: 0;
+    }
+    .background_gray{
+        height: 100vh;
+    }
+
+
+}
 @media screen and (max-width:768px){
+    .banner_img{
+        width:100%; !important;
+    }
+  #sabt_nam{
+      width:20%;
+      margin-left: 3vh;
+      height: 60%;
+  }
+    .buttoni{
+        width:100%;
+    }
+    .slider{
+        flex-direction: column-reverse;
+        width: 100%;
+        height: 100vh;
+        justify-content: end;
+        margin-top: 20vh;
+
+    }
+    .images{
+      width: 100%;
+    }
+    .slider_gogoli{
+      display: none ;
+    }
+    .slider_mohtava{
+       width: 100% ;
+    }
+    .matni{
+    width: 100%;
+        margin-right: 5vw;
+    }
+.fixer_mobile_dl{
+    margin-right: 0 !important;
+}
+
+
+
+
+
+
+
+
+.fixer_bashga{
+
+}
+    .q0,.q1,.q2,.q3,.q4,.q5,.q6,.q7{
+        width: 100%;
+    }
+    .soalat_firsttxt{
+        font-size: 5vw;
+    }
+    .soalat_secondtxt{
+        font-size: 5vw;
+        margin-right: 0;
+    }
     .container_hamburger{
         display: inline-block;
         cursor: pointer;
         margin-right: 20px;
         position: relative;
     }
+    .download{
+        justify-content: start;
+    }
+.download_txt{
+    margin-right: 0;
+}
+.js_component{
+    width: 98%;
+    height: 100%;
+}
+.namayeshgar_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+}
+.namayeshgar_bottom_button_style{
+    margin-top: 4vh;
+    margin-right: 0;
+}
+    .namayeshgar_bottom_button{
+        display: flex;
+        justify-content: center;
+        width: 100%;
+    }
+    .namayeshgar_bottom_adad{
+        width: 80%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    .namayeshgar_bottom_adad_top_left{
+        margin-left: 0;
+    }
+    .namayeshgar_bottom_adad_middle_left{
+        margin-left: 0;
+    }
+    .namayeshgar_bottom_adad_bottom_left{
+        margin-left: 0;
+    }
+.namayeshgar_bottom_adad_top{
+    margin-right: 0;
+}
+.namayeshgar_bottom_adad_middle{
+    margin-right: 0;
+}
+.namayeshgar_bottom_adad_bottom{
+    margin-right: 0;
+}
+.background_gray{
+    height: 100vh;
+}
     .pages{
         display: none;
     }
     .icons{
         flex-direction: column;
-        height: 100vh;
+        flex-wrap: wrap;
+        height: 50vh;
+        margin-bottom: 10vh;
     }
     .download{
         flex-direction: column-reverse;

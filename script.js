@@ -16,6 +16,16 @@ function solve() {
 function hamburgermaker(x) {
 x.classList.toggle("change");
 document.getElementById("fehrest").classList.toggle("flex");
+
+    if (document.getElementById("fehrest").classList.contains("flex")) {
+        document.getElementById("fehrest").classList.remove("godown");
+    }else{
+        document.getElementById("fehrest").classList.add("godown");
+        // setTimeout(jj,2000)
+        // function jj(){
+        //     document.getElementById("fehrest").classList.remove("godown");
+        // }
+    }
 }
 
 function feshar(x){

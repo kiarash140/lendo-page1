@@ -18,6 +18,9 @@ header{
     border-width: 12px;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.3);
 }
+.fixer_up{
+    height: 12vh;
+}
 .container_hamburger{
     display: none;
     cursor: pointer;
@@ -25,25 +28,25 @@ header{
 }
 .fehrest{
     display: none;
-    height: 45vh;
-    width: 20vh;
-    position: absolute;
+    width: 100%;
+    position: fixed;
     background-color: white;
     color: black;
     z-index: 5000000000;
-    right: 5vh;
+    bottom: 0;
     flex-direction: column;
-    align-content: center;
-    transition: all 1s ease;
+    opacity: 1;
 }
 .f{
     text-align: center;
     text-decoration: none;
     color: blue;
     margin-top: 4vh;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.1);
  }
 .f:hover{
     color: darkblue;
+    background-color: darkgray;
 }
 .bar1,.bar2,.bar3{
     width: 35px;
@@ -74,11 +77,11 @@ header{
     margin-right: auto;
     margin-left: 8vh;
     border-radius: 3vh;
-    width: 8vw;
-    height: 5vh;
+    width: 9%;
+    height: 100%;
     transition: background-color 0.5s;
     font-weight: bold;
-    background-color: darkblue; !important;
+    /*background-color: darkblue; !important;*/
     /*border-style: solid; !important;*/
     /*border: 10px; !important;*/
 }
@@ -98,33 +101,34 @@ header{
 }
 .banner{
     background-color: #23417D;
-    height: 70vh; !important;
-    width:100%; !important;
-    direction: rtl; !important;
-    display: flex;
+    /*height: 28vh;*/
+    /*height: 50vh; !important;*/
+    /*width:100%; !important;*/
+    /*direction: rtl; !important;*/
+    /*display: flex;*/
     color: white;
 }
 .banner_img{
-    width: 45vh;
-    height: 35vh;
-
+    /*width: 45vh;*/
+    /*height: 35vh;*/
 }
 .banner_mohtava{
-    height: 100%;
-    width: 50%;
-    display: flex;
+    /*height: 100%;*/
+    /*width: 50%;*/
+    /*display: flex;*/
     /*justify-content: center;*/
-    flex-direction: column;
-    align-items: center;
-    margin-top: 25vh;
+    /*flex-direction: column;*/
+    /*align-items: center;*/
+    /*margin-top: 25vh;*/
 }
 .banner_button{
     background-color: #0ac974;
     color: white;
     border-radius: 2vh;
+    margin-left: auto;
     width: 30vh;
     height: 7vh;
-    /*margin-top: 6vh;*/
+    margin-top: 6vh;
     /*margin-left: 20vh;*/
     transition: background-color 0.5s;
 }
@@ -195,15 +199,6 @@ header{
     border-radius: 3vh;
     overflow: inherit;
 }
-/*.fixers{*/
-/*    margin-top:10vh;*/
-/*    width: 10%;*/
-/*    height: 20vh;*/
-/*}*/
-/*.mother_banner{*/
-/*    display: flex;*/
-/*    flex-direction: row;*/
-/*}*/
 .banner_store{
     border-radius: 3vh;
     width: 100%;
@@ -241,32 +236,6 @@ header{
     position: relative;
 
 }
-
-/*.q1:hover{*/
-/*    height: 30vh;*/
-/*}*/
-/*.q2:hover{*/
-/*    height: 30vh;*/
-/*}*/
-/*.q3:hover{*/
-/*    height: 30vh;*/
-/*}*/
-/*.q4:hover{*/
-/*    height: 30vh;*/
-/*}*/
-/*.q5:hover{*/
-/*    height: 30vh;*/
-/*}*/
-/*.q6:hover{*/
-/*    height: 30vh;*/
-/*}*/
-/*.q7:hover{*/
-/*    height: 30vh;*/
-/*}*/
-/*.q8:hover{*/
-/*    height: 30vh;*/
-/*}*/
-
 .soalat_firsttxt{
     font-size: 3vh;
     font-weight: normal;
@@ -362,6 +331,23 @@ footer{
 }
 .flex{
     display: flex;
+    flex-direction: column;
+    animation: salam 2s ease-in-out;
+}
+@keyframes salam{
+    from{height: 0}
+    to{height: 40%}
+}
+.godown{
+    /*display: flex;*/
+    animation: salam_2 2s ease-in-out;
+}
+@keyframes salam_2{
+    from{height: 40%; display:flex;}
+    to{
+        height: 0;
+        display: none;
+    }
 }
 .slider{
     background-color: white;
@@ -496,6 +482,9 @@ background-color: white;
     height: 80%;
     background-color: white;
     border-radius: 2.5vh;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: nowrap;
 }
 .zibayi{
     display: flex;
@@ -536,11 +525,7 @@ background-color: white;
     border-radius: 100%;
     width: 0.35vh;
 }
-.namayeshgar{
-    display: flex;
-    flex-direction: column;
-    flex-wrap: nowrap;
-}
+
 .namayeshgar_top{
     height: 30%;
     width: 100%;
@@ -753,6 +738,55 @@ background-color: white;
     cursor: pointer;
 }
 .jeez{
-    background-color: darkblue;
+    background-color: lightgray;
+    color: lightgray;
+    border-radius: 3vh;
 }
+.animation{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #23417D;
+}
+.animation_zibayi{
+    width: 90%;
+    height: 100%;
+    animation: mojeze 2s infinite;
+    margin-left: 10%;
+    color: black;
+    background-color: #23417D;
+    padding-top:2vh ;
+    direction: rtl;
+    display: none;
+}
+@keyframes mojeze {
+    0%{
+        transform: translateY(-0%);
+        .matn_1{
+            display: block !important;
+        }
+        .matn_5{
+            display: none !important;
+        }
+    }
+    25%{
+        transform: translateY(-100%);
+        .matn_2{
+            display: block !important;
+        }
+        .matn_1{
+            display: none !important;
+        }
+    }
+    50%{
+        transform: translateY(-200%);
+    }
+    75%{
+        transform: translateY(-300%);
+    }
+    100%{
+        transform: translateY(-400%);
+    }
+}
+
 
