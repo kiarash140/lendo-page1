@@ -746,18 +746,19 @@ background-color: white;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    background-color: #23417D;
+    background-color: rgba(100, 100, 100,0);
 }
 .animation_zibayi{
     width: 90%;
     height: 100%;
-    animation: mojeze 2s infinite;
+    animation: mojeze 4s infinite;
     margin-left: 10%;
     color: black;
-    background-color: #23417D;
+    background-color: rgba(100, 100, 100,0);
     padding-top:2vh ;
     direction: rtl;
     display: none;
+    margin-top: 4vh;
 }
 @keyframes mojeze {
     0%{
@@ -787,6 +788,9 @@ background-color: white;
     100%{
         transform: translateY(-400%);
     }
+}
+.block{
+    display: block;
 }
 
 
