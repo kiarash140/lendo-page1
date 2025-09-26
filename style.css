@@ -136,22 +136,27 @@ header{
 .banner_button:hover{
     background-color: green;
 }
-.icons{
-    display: flex;
-    justify-content: center;
-    height: 10vh;
-    width: 100%;
+/*.icons{*/
+/*    display: flex;*/
+/*    justify-content: center;*/
+/*    height: 10vh;*/
+/*    width: 100%;*/
 
+/*}*/
+/*.icon{*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    align-items: center;*/
+/*    margin-top: 5vh;*/
+/*    padding-left:10vh ;*/
+/*    padding-right: 10vh;*/
+/*}*/
+.i_1{
+    /*margin-right: 0;*/
 }
-.icon{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin-top: 5vh;
-    padding-left:10vh ;
-    padding-right: 10vh;
+.i-5{
+    /*margin-left: 0;*/
 }
-
 .banner_2{
     width: 100%;
     height: 100%;
@@ -167,6 +172,7 @@ header{
     display: flex;
     flex-direction: row-reverse;
     margin-top: 10vh;
+    width: 100%;
 }
 .emtiazat_txt{
     margin-top: 6vh;
@@ -245,6 +251,7 @@ header{
     margin-top: 6vh;
     text-align: right;
     margin-right: 10vh;
+    font-size: 3vh;
 }
 footer{
     width: 100%;
@@ -301,6 +308,10 @@ footer{
     width: 40vh;
     margin-left: 10vh;
 }
+.footer_pic_bank_mobile{
+    height: 20vh;
+    width: 40vh;
+}
 .spinner{
     transform: rotate(180deg);
 
@@ -356,7 +367,7 @@ footer{
     border-radius: 3vh;
     position: relative;
     display: flex;
-    margin: 19vh auto 10vh;
+    margin: 10vh auto 10vh;
 }
 .images{
     height: 100%;
@@ -736,6 +747,9 @@ background-color: white;
       font-weight: bold;
     color: white;
     cursor: pointer;
+}
+.mobile_footer{
+    height: 120vh;
 }
 .jeez{
     background-color: lightgray;

@@ -36,6 +36,15 @@ function feshar(x){
         x.parentElement.style.height = "33vh"
     }
 }
+function push(x){
+    x.classList.toggle("spinner")
+    if(x.parentElement.style.height === "45vh"){
+        x.parentElement.style.height = "10vh"
+    }
+    else{
+        x.parentElement.style.height = "45vh"
+    }
+}
 /////////////////////////////////////////////////////////////////////////
  const data=[{
      first : "اعتبارسنجی",
@@ -166,26 +175,28 @@ document.getElementById("namayeshgar_center_topside_left_button").addEventListen
         barcontrol(whereami_slider-1);
     }
 })
-let s=0;
-let sx=0;
-setInterval(function(){
-    document.getElementsByClassName("animation_zibayi")[s].classList.add("block");
-    try{
-        document.getElementsByClassName("animation_zibayi")[s-1].classList.remove("block");
-    }catch(e){
-
-    }
-    console.log(s)
-    s=s+1
-    if (sx===1){
-        document.getElementsByClassName("animation_zibayi")[4].classList.remove("block");
-    }
-    sx=0;
-    if(s===5){
-        s=0
-        sx=1
-
-    }
-},800)
-
+///////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
+//                            this is not ready yet big problem
+// let s=0;
+// let sx=0;
+// setInterval(function(){
+//     document.getElementsByClassName("animation_zibayi")[s].classList.add("block");
+//     try{
+//         document.getElementsByClassName("animation_zibayi")[s-1].classList.remove("block");
+//     }catch(e){
+//
+//     }
+//     // console.log(s)
+//     s=s+1
+//     if (sx===1){
+//         document.getElementsByClassName("animation_zibayi")[4].classList.remove("block");
+//     }
+//     sx=0;
+//     if(s===5){
+//         s=0
+//         sx=1
+//
+//     }
+// },800)
+////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 

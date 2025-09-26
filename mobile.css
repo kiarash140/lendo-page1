@@ -1,6 +1,4 @@
-
 /*...-1400  1400-1200  1200-992  992-768  768-...*/
-
 @media screen and (min-width:768px){
     .banner_img{
         width:50%; !important;
@@ -13,7 +11,25 @@
 
 
 }
+@media screen and (min-width:768px ) and (max-width:992px){
+    .slider{
+        width: 100% !important;
+    }
+    .slider_gogoli{
+        display:none;
+    }
+}
 @media screen and (min-width:992px ) and (max-width:1200px){
+    #sabt_nam{
+
+    }
+    .slider{
+        width: 100% !important;
+        margin-top:19vh !important;
+    }
+    .slider_gogoli{
+        display:none;
+    }
     .js_component{
         width: 98%;
         height: 100%;
@@ -128,7 +144,7 @@
         width: 100%;
         height: 100vh;
         justify-content: end;
-        margin-top: 20vh;
+        margin-top: 32vh;
 
     }
     .images{
@@ -146,17 +162,6 @@
     }
 .fixer_mobile_dl{
     margin-right: 0 !important;
-}
-
-
-
-
-
-
-
-
-.fixer_bashga{
-
 }
     .q0,.q1,.q2,.q3,.q4,.q5,.q6,.q7{
         width: 100%;
@@ -227,12 +232,13 @@
     .pages{
         display: none;
     }
-    .icons{
-        flex-direction: column;
-        flex-wrap: wrap;
-        height: 50vh;
-        margin-bottom: 10vh;
-    }
+    /*.icons{*/
+    /*    flex-direction: column;*/
+    /*    flex-wrap: wrap;*/
+    /*    height: 50vh;*/
+    /*    margin-bottom: 10vh;*/
+    /*}*/
+
     .download{
         flex-direction: column-reverse;
         height: 40vh;
@@ -275,5 +281,14 @@
     }
     .mobile{
         display: flex;
+    }
+    .footer_bootom{
+        display: none;
+    }
+    .soalat_firsttxt{
+        font-size: 2vh;
+    }
+    .soalat_secondtxt{
+        font-size: 1.8vh;
     }
 }
