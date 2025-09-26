@@ -18,6 +18,12 @@
     .slider_gogoli{
         display:none;
     }
+    .button_buttoni{
+        font-size: 1.5vh;
+    }
+    .buttoni{
+        width:80%;
+    }
 }
 @media screen and (min-width:992px ) and (max-width:1200px){
     #sabt_nam{
@@ -124,7 +130,9 @@
     .background_gray{
         height: 100vh;
     }
-
+    .gym_points{
+        flex-direction: column;
+    }
 
 }
 @media screen and (max-width:768px){
