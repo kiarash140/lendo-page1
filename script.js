@@ -192,7 +192,7 @@ document.getElementById("namayeshgar_center_topside_left_button").addEventListen
 //         document.getElementsByClassName("animation_zibayi")[4].classList.remove("block");
 //     }
 //     sx=0;
-//     if(s===5){
+//     if(s===3){
 //         s=0
 //         sx=1
 //

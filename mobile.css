@@ -133,8 +133,15 @@
     .gym_points{
         flex-direction: column;
     }
+    .icons{
+        /*flex-direction: column;*/
+        /*flex-wrap: wrap;*/
+        /*height: 50vh;*/
+        margin-bottom: 15vh !important;
+    }
 
 }
+/*////////////////////////////////////////////////////////////////////////////////////////////////////*/
 @media screen and (max-width:768px){
     .banner_img{
         width:100%; !important;
@@ -144,8 +151,15 @@
       margin-left: 3vh;
       height: 60%;
   }
+  .gym_points{
+      font-size: 2vh;
+  }
+    .button_buttoni{
+        font-size: 1.5vh;
+    }
     .buttoni{
         width:100%;
+
     }
     .slider{
         flex-direction: column-reverse;
@@ -162,7 +176,10 @@
       display: none ;
     }
     .slider_mohtava{
-       width: 100% ;
+       width: 90% ;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 15vh;
     }
     .matni{
     width: 100%;
@@ -240,12 +257,12 @@
     .pages{
         display: none;
     }
-    /*.icons{*/
-    /*    flex-direction: column;*/
-    /*    flex-wrap: wrap;*/
-    /*    height: 50vh;*/
-    /*    margin-bottom: 10vh;*/
-    /*}*/
+    .icons{
+        /*flex-direction: column;*/
+        /*flex-wrap: wrap;*/
+        /*height: 50vh;*/
+        margin-bottom: 17vh !important;
+    }
 
     .download{
         flex-direction: column-reverse;
@@ -272,10 +289,7 @@
         margin-right: 20vh;
     }
     .download_txt{
-        margin-right: auto;
-        margin-left: auto;
-        margin-top: 5vh;
-        margin-bottom: 4vh;
+        margin: 5vh auto 4vh;
 
     }
     .footer_pic_bank{
@@ -298,5 +312,9 @@
     }
     .soalat_secondtxt{
         font-size: 1.8vh;
+    }
+    .slider{
+       margin-top: 10vh;
+        width: 100%;
     }
 }
